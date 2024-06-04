@@ -1,0 +1,51 @@
+body {
+    background-color: #343a40;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: #ffdf00;
+}
+
+#score-area {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#click-img {
+    width: 512px;
+    height: 512px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#click-img:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    #click-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #score-area {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #click-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #score-area {
+        font-size: 1.2rem;
+    }
+}
